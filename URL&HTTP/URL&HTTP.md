@@ -36,3 +36,33 @@
    - `https://developer.mozilla.org/zh-CN/docs/Web/HTML`
    - `https://developer.mozilla.org/zh-CN/docs/Web/CSS`
 2. 工具
+   - 使用 Chrome 开发者工具 Network 面板观看
+3. 查询参数
+   - 同一个页面，查看不同的内容
+   - `www.baidu.com/s?wd=hi`
+   - `www.baidu.com/s?wd=hello`
+4. 锚点
+   - 同一个内容，不同的位置
+   - `https://developer.mozilla.org/zh-CN/docs/Web/CSS#参考书`
+   - `https://developer.mozilla.org/zh-CN/docs/Web/CSS#教程`
+   - 锚点看起来有中文，实际上不支持中文，会转化为别的字符
+   - 锚点是无法在 Network 面板上看到的
+   - 锚点不会传给服务器
+
+## HTTP（协议）
+
+#### 定义
+
+HyperText Transfer Protocol
+超文本传输协议（英语：HyperText Transfer Protocol，缩写：HTTP）是一种用于分布式、协作式和超媒体信息系统的应用层协议。HTTP 是万维网的数据通信的基础。
+
+#### curl 发送 HTTP 请求
+
+![](curl.png)
+
+1. `curl -v http://baidu.com`
+2. `curl -s -v -- https://www.baidu.com`
+3. 过程
+   - url 会被 curl 工具重写，先请求 DNS 获取 IP
+   - 进行 TCP 连接，TCP 连接成功后，开始发送 HTTP 请求
+   -
