@@ -166,3 +166,16 @@
   ![](img/背景色过渡.png)
 
 #### 经验
+
+- 过渡必须要有起始，一般只有一到两次动画，比如 hover 和非 hover 状态的过渡
+
+## animation 和@keyframes
+
+#### @keyframes 写法
+
+- ![](img/keyframes1.png)
+- ![](img/keyframes2.png)
+
+#### 使用例子
+
+- ![](img/key.png)
