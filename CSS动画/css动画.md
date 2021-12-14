@@ -176,6 +176,14 @@
 - ![](img/keyframes1.png)
 - ![](img/keyframes2.png)
 
-#### 使用例子
+#### @keyframes 使用例子
 
 - ![](img/key.png)
+
+#### animation
+
+- 缩写语法
+  - `animation:时长|过渡方式|延迟|次数|方向|填充模式|是否暂停|动画名`
+  - ![](img/animation.png)
+- 使用例子
+  - ![](img/animation例子.png)
